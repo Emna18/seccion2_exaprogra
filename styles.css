@@ -1,0 +1,44 @@
+.cuerpo{
+     text-align: center;
+  color: white;
+    background-color: black;
+     border-radius: 20px;
+width: 70%;
+  height: 600px;
+  padding: 12px 20px;
+   text-align: center;
+font-size: 30px;
+  border-radius: 20px 10px 50px 30px;
+-webkit-border-radius: 20px 10px 50px 30px;
+-moz-border-radius: 20px 10px 50px 30px;
+border: 15px double;
+  font: oblique bold 120% cursive;
+  border-color: white;
+
+}
+hr {
+  height: 3px;
+  background-color: white;
+   height: 6px;
+  width: 80%;
+}
+body { 
+  background-image: url(https://99px.ru/sstorage/86/2018/08/image_861408180008508958760.gif);
+background-attachment: fixed;
+ position: relative;
+   background-size: cover;
+   background-position: center;
+
+
+}
+input,button{
+
+  color: black;
+     border-radius: 20px;
+width: 30%;
+  height: 50px;
+  padding: 12px 20px;
+   text-align: center;
+font-size: 30px;
+
+}

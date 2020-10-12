@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Contraseña</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<center> <div class="cuerpo">
+<script>
+function comprobarClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+
+   if(clave1=="admin"&&clave2=="sesamo"){
+    alert ("Palabras mágicas correctas... \n ¡Bienvenido!");
+    var href ="https://emna18.github.io/menu/registro.html";
+    window.location=href;
+   }
+
+else {
+  alert("¡oh no! Palabras magicas incorrectas...\n Por favor, intentelo de nuevo.");
+  var href =  "index.html";
+  window.location=href;
+}
+  }
+   
+</script>
+</head>
+
+<body>
+
+<h1>HOLA, INGRESA LAS PALABRAS MAGICAS PARA PODER ENTRAR</h1>
+<br>
+
+
+<form action="" name="f1">
+<h3>Usuario:</h3> <input type="password" name="clave1" size="20">
+<h3>Contraseña:</h3> <input type="password" name="clave2" size="20">
+<P>
+<br>
+<input id="btn" type="button" value="COMPROBAR" onClick="comprobarClave()">
+
+
+</form>
+</body>
+</html>
